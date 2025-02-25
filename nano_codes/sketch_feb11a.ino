@@ -1,5 +1,3 @@
-#include <NewPing.h>
-#include <SoftwareSerial.h>
 #include "LiquidCrystal_I2C.h"
 
 // Motor control pins
@@ -12,27 +10,7 @@
 #define MOTORA4 8
 #define MOTORB4 9
 
-// IR and Ultrasonic sensor pins
-#define RIGHT A2
-#define LEFT A3
-#define TRIGGER_PIN A1
-#define ECHO_PIN A0
-#define MAX_DISTANCE 200
 
-// SoftwareSerial RX and TX pins
-#define SOFT_RX 10
-#define SOFT_TX 11
-
-// Variables to store sensor data
-unsigned int distance = 0;
-unsigned int Right_Value = 0;
-unsigned int Left_Value = 0;
-
-// Ultrasonic sensor object
-NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
-
-// Flag to determine if the robot should follow a human
-bool HumanFollowMode = false;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void smile() {
@@ -92,16 +70,14 @@ void setup() {
 }
 
 void loop() {
-  if (HumanFollowMode) {
-    // FollowHuman();
-  } else {
+
     if (Serial.available() > 0) {
       String command = Serial.readStringUntil('\n');
       Serial.print(command);
       command.trim();
       ParseAndExecuteCommand(command);
     }
-  }
+
 }
 
 
