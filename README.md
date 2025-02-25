@@ -17,4 +17,4 @@ DEMO
 https://github.com/user-attachments/assets/f948dd32-fec4-4195-9a01-29dd02bb35ca
 
 
-<p><a href="https://trakteer.id/elaina_wany_wangy/tip"> <img align="left" src="https://berita.teknologi.id/images/?path=https://berita.teknologi.id/uploads/article/1726158397_image.png&size=720x400" style="border-radius: 20px;" height="100" width="210" alt="https://trakteer.id/elaina_wany_wangy/tip" /></a></p><br><br>
+<p><a href="https://trakteer.id/elaina_wany_wangy/tip"> <img align="left" src="https://berita.teknologi.id/uploads/article/1726158397_image.png" style="border-radius: 20px;" height="100" width="210" alt="https://trakteer.id/elaina_wany_wangy/tip" /></a></p><br><br>
