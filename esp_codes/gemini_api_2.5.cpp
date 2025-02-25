@@ -27,8 +27,8 @@
 #define PCLK_GPIO_NUM  22
 
 // WiFi credentials
-const char* ssid = "eol";
-const char* password = "elainawangywangy";
+const char* ssid = "SSIDWIFIHERE";
+const char* password = "WIFI PASSWORDHERE";
 
 // Create WebServer object on port 80
 WebServer server(80);
@@ -39,7 +39,7 @@ String receivedTexts[MAX_TEXTS];
 int textIndex = 0;
 
 // API Key for the request
-const char* apiKey = "AIzaSyC0G27gTWbUcP2wngA0d2g8M37csw85SzE";
+const char* apiKey = "YOUR_GEMINI_API_KEY";
 
 // API endpoint
 const char* endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
