@@ -16,5 +16,12 @@ mengontrol motor driver.
 ## DEMO
 https://github.com/user-attachments/assets/f948dd32-fec4-4195-9a01-29dd02bb35ca
 
+## License
 
+Arduino is an open-source project, supported by many. The Arduino team is composed of Massimo Banzi, David Cuartielles, Tom Igoe, and David A. Mellis.
+
+Licensed under the [MIT](LICENSE.txt) license.
+
+
+## Support
 <p><a href="https://trakteer.id/elaina_wany_wangy/tip"> <img align="left" src="https://berita.teknologi.id/uploads/article/1726158397_image.png" style="border-radius: 20px;" height="100" width="210" alt="https://trakteer.id/elaina_wany_wangy/tip" /></a></p><br><br>
