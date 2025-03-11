@@ -12,6 +12,9 @@ Robot ini adalah RC car dengan input prompt yang telah diintegrasikan dengan Gem
 API ini mampu menganalisis gambar yang ditangkap melalui Kamera OV2640 dan menganalisis teks sehingga mampu mengekstrak perintah untuk 
 mengontrol motor driver.
 
+## SCHEMATIC
+![Schematic_New-Project_2025-03-11](https://github.com/user-attachments/assets/999f5141-2868-40c5-95db-3f3718bf0f83)
+
 
 ## DEMO
 https://github.com/user-attachments/assets/f948dd32-fec4-4195-9a01-29dd02bb35ca
